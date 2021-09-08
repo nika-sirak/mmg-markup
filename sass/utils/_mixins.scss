@@ -1,0 +1,33 @@
+// @mixin bordered($color, $type: solid) {
+//   border: 1px $type $color;
+// }
+
+// p {
+//   @include bordered(green, solid);
+// }
+
+// @mixin centeredFlex($type: flex) {
+//   display: $type;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// p {
+//   @include centeredFlex();
+// }
+
+// button {
+//   @include centeredFlex(inline-flex);
+// }
+
+// $icons: "facebook", "github", "linkedin", "twitter";
+
+// @mixin generateIcons($iconList) {
+//   @each $iconName in $iconList {
+//     .icon-#{$iconName} {
+//       background-image: url("../img/#{$iconName}.svg");
+//     }
+//   }
+// }
+
+// @include generateIcons($icons);
